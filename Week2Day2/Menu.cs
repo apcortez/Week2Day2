@@ -88,7 +88,7 @@ namespace Esercizio1
             int codice;
             string nome;
             decimal prezzo;
-
+            SnackManager.View();
                 Console.WriteLine("Inserisci il codice numerico intero per aggiungere lo Snack: ");
                 bool isValid = int.TryParse(Console.ReadLine(), out codice);
                 if (isValid)

@@ -32,7 +32,7 @@ namespace Esercizio1
         {
             Snack snack = new Snack(codice, nome, prezzo);
             snacks.Add(snack);
-            Console.WriteLine($"Lo snack con codice: {codice} nome: {nome} prezzo: {prezzo}€ è stato aggiunto con successo! \n");
+            Console.WriteLine($"Lo snack con CODICE = '{codice}', NOME = '{nome}', PREZZO = '{prezzo}E' è stato aggiunto con successo! \n");
         }
 
         internal static void View()
