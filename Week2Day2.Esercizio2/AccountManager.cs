@@ -12,7 +12,7 @@ namespace Week2Day2.Esercizio2
         {
             new Account(1, "Pippo", 1000m),
             new Account(2, "Pluto", 350.50m),
-            new Account(3, "Paperino", 10.50m)
+            new Account(3, "Pape", 10.50m)
         };
         internal static Account GetByid(int idAccount)
         {
@@ -72,7 +72,7 @@ namespace Week2Day2.Esercizio2
             Console.WriteLine("CONTO \t\t INTESTATARIO \t\t SALDO ");
             foreach(Account account in accounts)
             {
-                Console.WriteLine(account.IdAccount + " \t\t " + account.AccountHolder + " \t\t " + account.Balance);
+                Console.WriteLine(account.IdAccount + " \t\t " + account.AccountHolder + " \t\t\t" + account.Balance);
             }
         }
 
